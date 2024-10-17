@@ -5,7 +5,8 @@ body {
     height: 100vh;
 }
 
-nav {
+/* navigation style-laryny ayratyn css file etdim */
+/* nav {
     position: absolute;
     background-color: #D9D9D9;
     opacity: 0.7;
@@ -30,7 +31,7 @@ nav a {
 
 nav a:hover {
     background-color: #a1a3a0;
-}
+} */
 
 .reservationI {
     position: absolute;
