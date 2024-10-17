@@ -1,0 +1,30 @@
+/* navigation-e degisli css-ler ayratyn durup biler
+sol bir code kop gaytalanmaz yaly
+*/
+nav {
+    position: absolute;
+    background-color: #D9D9D9;
+    opacity: 0.7;
+    border-radius: 11px;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+nav a {
+    padding: 10px 15px;
+    width: 80px;
+    background-color: #DEDBDD;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: backgrouAnd-color 0.3s ease;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #a1a3a0;
+}
