@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mesafe {
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+            background-color: bisque;
+            width: max-content;
+            padding: 10px;
+            font-size: xx-large;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        button {
+            margin: 20px 2px;
+            width: 100px;
+            height: 50px;
+            font-size: large;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mesafe">
+        Mesafe: <span id="uytgeyan">386</span>
+    </div>
+    <button id="azalyan">Azalyan</button>
+    <button id="kopelyan">Kopelyan</button>
+    <script>
+        var uytgeyanSpan = document.getElementById("uytgeyan")
+
+        var azalyanButton = document.getElementById("azalyan");
+        var kopelyanButton = document.getElementById("kopelyan");
+
+        azalyanButton.addEventListener("click", function() {
+            var currentMesafe = parseInt(uytgeyanSpan.innerText)
+            uytgeyanSpan.innerText = currentMesafe - 1;
+        })
+        
+        kopelyanButton.addEventListener("click", function() {
+            var currentMesafe = parseInt(uytgeyanSpan.innerText)
+            uytgeyanSpan.innerText = currentMesafe + 1;
+        })
+    </script>
+</body>
+</html>
