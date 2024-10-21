@@ -6,7 +6,8 @@
     <title>index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM+1wKUjp4FvvNND5NLRr1EIp6uP8r0C4188v4" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/index.css">
-    <!-- indi nav.css-i barik link etdim -->
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
      <link rel="stylesheet" href="static/css/nav.css">
     <style>
         
@@ -38,17 +39,18 @@
         <button id="maps"> <i class="fas fa-map-marker-alt"></i> Haritada göster</button>
           </span>
           <span><h1>Giriş yapmak</h1>
-            <button class="date">Tarih ekleyin</button>
+           <input type="date">
           </span>
           <span><h1>Çıkış yapmak</h1>
-            <button class="date">Tarih ekleyin</button></span>
-          <span>
+           <input type="date"></span>
+            <span> <h1>Saat</h1> <input type="time"> </span>
+         
             <span> <h1>Kişi sayisi</h1>
               <i class="fas fa-camera"></i>
               <input type="text" class="where1">
               <button id="search"> <i class="fas fa-map-marker-alt"></i> Ara</button>
           </span>
-          </span>
+          
         </div>
     </div>
 </div>
@@ -75,11 +77,24 @@
 </div>
 <footer>
   <p>&copy; 2023 Tüm haklar saklıdır.</p>
+  <a  href="https://www.facebook.com" target="_blank">
+      <i class='bx bxl-facebook' style="color: white; font-size: 24px;"></i>
+  </a>
+  <a href="https://www.instagram.com" target="_blank">
+      <i class='bx bxl-instagram' style="color: white; font-size: 24px;"></i>
+  </a>
+  <a href="https://twitter.com" target="_blank">
+      <i class='bx bxl-twitter' style="color: white; font-size: 24px;"></i>
+  </a>
+  <a href="https://vk.com" target="_blank">
+      <i class='bx bxl-vk' style="color: white; font-size: 24px;"></i>
+  </a>
+  
     </footer>
 </body>
 <script>
   document.getElementById("search").addEventListener('click', function() {
-      window.location.href = "reservation.html";
+      window.location.href = "pages/reservation.html";
   });
 </script>
 </html>
