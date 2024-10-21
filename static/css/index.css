@@ -7,42 +7,13 @@ body {
 
 #mainimg {
     /* image yok eken, git push edende sol hem bolsa gowy bolar */
-    background-image: url(mainimg.png);
+    background-image: url(../images/mainimg.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
     margin: 0;
 }
-/* navigation style-yny ayratin css etdim */
-/* nav {
-    position: absolute;
-    background-color: #D9D9D9;
-    opacity: 0.7;
-    border-radius: 11px;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 10px;
-    margin: 0;
-}
-
-nav a {
-    padding: 10px 15px;
-    width: 80px;
-    background-color: #DEDBDD;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-align: center;
-}
-
-nav a:hover {
-    background-color: #a1a3a0;
-} */
-
 #rezervasyon {
     height: 30vh;
     width: 100%;
