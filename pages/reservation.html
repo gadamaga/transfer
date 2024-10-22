@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
     <link rel="stylesheet" href="../static/css/nav.css">
-    <!-- indi nav.css-i barik link etdim -->
-    
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
      <style>
         body {
     margin: 0;
@@ -36,68 +35,21 @@
 
 .car {
     border: 1px solid #000;
-    padding: 20px;
-    text-align: center;
+    padding: 5px;
     width: 30%;
     height: 70vh;
     font-size: 10px;
 }
-
-.car img {
+.car img{
     width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
-.car span {
-    font-size: 20px;
-    margin: 10px;
-}
-
-.from, .to {
-    display: flex;
+    height: 40%;
     padding: 0;
-    margin: 7% 0 0 0;
 }
-
-.from h1, .to h1 {
-    margin-right: 10px;
-    margin: 0;
+.car h1{
+    font-size: 50px;
 }
-
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 5%;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    padding: 5px;
-    text-align: center;
-}
-        .info p {
-    font-size: 18px;
-    margin: 10px 0;
-    background-color: brown;
-}
-    .sezonfiyatlar em {
-        float: right;
-        font-style: normal;
-        color: #fff;
-        background: #607D8B;
-        padding-left: 5px;
-        text-align: right;
-        padding-right: 5px;
-        border-radius: 3px;
-        margin-left: 10px;
-    }
-
-.sezonfiyatlarbox {
-        display: table;
-        width: 100%;
-    }
+       
+   
      </style>
 </head>
 <body>
@@ -114,32 +66,14 @@ footer {
             <h1>Araçlarımız</h1>
             <div class="car-container">
                 <div class="car">
-                    <img src="../static/images/Mercedes-Benz Sprinter Van With Sleek Design And Emblem.png" alt="">
-                    <h1>Mercedes Siprinter</h1>
-                    <span>Model: 2023</span>
-                    <span>Kişi sayısı: 7</span>
-                    <span>Bavul: 5</span>
-                    <div class="from">
-                        <h1>Nerden:</h1>
-                        <h1>Hava limani</h1> 
-                    </div>
-                    <div class="to">
-                        <h1>Nereye:</h1>
-                        <h1>Demir otel</h1>
-                    </div>
-                    <div class="directionformation"></div>
-                    <div class="info">
-                        <div class="sezonfiyatlar ">
-                            <div class="sezonfiyatlarbox">
-                                <div class="sezonfiyatlargrid">
-                                    <span>Mesafe<em class="bg-info2"> <span class="parabirimi">0 KM </span> </em></span>
-                                    <span>Süre <em class=""> <span class="parabirimi">0:0 DK</span></em></span>
-                                    <span>Yön <em class="bg-info2"> <span class="parabirimi">Tek Yön</span></em></span>
-                                    <span>Fiyat  <em class="bg-info2">  <span class="parabirimi">0</span> ₺</em></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="..//static/images/Mercedes-Benz Sprinter Van With Sleek Design And Emblem.png" alt="">
+                   <h1>Mercedes Siprinter</h1>
+                   <div>
+                    <span><i class='bx bxs-car'></i> Araba</span>
+<span><i class='bx bxs-user'></i> Kişi sayısı: 7</span>
+<span><i class='bx bxs-bag'></i> Bavul: 5</span>
+                </div>
+                   <span>Nereden:<em>İstanbul Havalimanı</em></span>
                 </div>
                 <div class="car">Araç 2</div>
                 <div class="car">Araç 3</div>
