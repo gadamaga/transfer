@@ -2,96 +2,97 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100vh;
-}
-
-/* navigation style-laryny ayratyn css file etdim */
-/* nav {
-    position: absolute;
-    background-color: #D9D9D9;
-    opacity: 0.7;
-    border-radius: 11px;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    min-height: 100vh;
     display: flex;
-    gap: 10px;
+    flex-direction: column;
 }
-
-nav a {
-    padding: 10px 15px;
-    width: 80px;
-    background-color: #DEDBDD;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    text-align: center;
-}
-
-nav a:hover {
-    background-color: #a1a3a0;
-} */
 
 .reservationI {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    width: 100%;
-    height: 100vh;
-    transform: translateX(-50%);
+    width: 90%;
+    margin: 100px auto;
     border: 2px solid #5D5252;
     border-radius: 10px;
-    padding: 10px 45px;
+    padding: 20px 45px;
     text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .car-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 20px;
 }
 
 .car {
-    border: 1px solid #000;
-    padding: 20px;
-    text-align: center;
-    width: 25%;
-    height: 70vh;
-    font-size: 10px;
+    padding: 5px;
+    width: 30%;
+    height: 85vh;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.575);
+    transition: box-shadow 0.7s ease;
 }
 
 .car img {
     width: 100%;
-    height: auto;
-    border-radius: 10px;
+    height: 40%;
+    padding: 0;
+    border-radius: 25px;
+}
+
+.car h1 {
+    font-size: 30px;
 }
 
 .car span {
+    color: #333;
     font-size: 20px;
-    margin: 10px;
+    margin: 5px 10px;
 }
 
-.from, .to {
-    display: flex;
-    padding: 0;
-    margin: 7% 0 0 0;
+.car i {
+    color: #699BF7;
 }
 
-.from h1, .to h1 {
-    margin-right: 10px;
-    margin: 0;
+.from {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 5%;
-    background-color: black;
+.info {
+    display: block;
+    text-align: left;
+    margin-top: 50px;
+    padding: 10px 0;
+}
+
+.infoem {
+    background-color: #241818e0;
     color: white;
-    font-size: 20px;
     padding: 5px;
-    text-align: center;
+    border-radius: 5px;
+}
+
+.reserbtn {
+    background-color: transparent;
+    color: black;
+    width: 60%;
+    height: 7%;
+    border: 4px solid #5D5252;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.reserbtn:hover {
+    background-color: #D6CCCC;
 }
