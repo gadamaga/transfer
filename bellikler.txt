@@ -1,14 +1,3 @@
-- image-ler gorunenok, static/images-icine goyup onson linklerini tazelay.
-    suratlar kan uly mb hem bolmasyn, sonra push/pull edende kyn bolyar, 
-    gaty kici hem bolmasyn, owadanlygy yityar, ozun sazla.
-- navigation style'laryny ayratyn css file etdim, sol birzat kop yerde gaytalanmaz yaly
-- css, image, js file'laryne static file diyilyar, we static folderin icinde goyulyar, 
-    that is the convention, good practice, akuratnyy bolup duryar
-- kop yerde static yerine 'asset' edibem goyyarlary sul papkanyn adyny, ozun haysyny halasan ulanyber.
-- css, js we image file'laryn yeri uytganligi sebapli errorlar bolar.
-    munun onune gecmek ucin link leri duzedip cykay.
-- organize etmek ucin hem 'pages' diyip folder doretdim, index.html'den basgasyny sona zyndym, 
-    organized bolyar. indi yene osibka berer, olaryn hem linklerini duzeday.
-- birem index.html-in in asagynda yazan javascript file-yny hem, ayradyn index.js file-yna yazyp
-    sonra ony static/js folderine goyup, sonra index.html-de dine link beray.
-    that is good practice, suwagtden owrenisiber
+- index.js file-y static/js folderinin icinde bolmaly,
+- form sahypasy yokmy? ady, familiyasy eyle beyle bolan sahypasy
+    reservation.html-daki 'rezervasyon olustur' butonuna basanda sona gitmelidi
