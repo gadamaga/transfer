@@ -1,45 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
-    <link rel="stylesheet" href="reservation.css">
-    <!-- indi nav.css-i barik link etdim -->
-     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="../static/css/nav.css">
+    <link rel="stylesheet" href="../static/css/footer.css">
+    <link rel="stylesheet" href="../static/css/reservation.css">
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
+   
 </head>
+
 <body>
     <nav>
-        <a href="#">Ana Sayfa</a>
+        <a href="../index.html">Ana Sayfa</a>
         <a href="#">Hakkımızda</a>
-        <a href="#">Fiyat</a>
+        <a href="../pages/price.html">Fiyat</a>
         <a href="#">Çalışanlarımız</a>
-        <a href="#">Galeri</a>
-        <a href="#">Iletişim</a>
+        <a href="../pages/galeri.html">Galeri</a>
+        <a href="../pages/contactus.html">İletişim</a>
     </nav>
     <main>
         <div class="reservationI">
             <h1>Araçlarımız</h1>
             <div class="car-container">
                 <div class="car">
-                    <img src="Mercedes-Benz Sprinter Van With Sleek Design And Emblem.png" alt="">
+                    <img src="..//static/images/Mercedes-Benz Sprinter Van With Sleek Design And Emblem.png" alt="">
                     <h1>Mercedes Siprinter</h1>
-                    <span>Model: 2023</span>
-                    <span>Kişi sayısı: 7</span>
-                    <span>Bavul: 5</span>
-                    <div class="from">
-                        <h1>Nerden:</h1>
-                        <h1>Hava limani</h1> 
+                    <div>
+                        <span><i class='bx bxs-car'></i> Araba</span>
+                        <span><i class='bx bxs-user'></i> Kişi sayısı: 7</span>
+                        <span><span><i class='bx bxs-bag'></i> Bavul: 5</span>
                     </div>
-                    <div class="to">
-                        <h1>Nereye:</h1>
-                        <h1>Demir otel</h1>
-                    </div>
+                    <span class="from">Nereden: <em>İstanbul Havalimanı</em></span>
+                    <span class="from">Nereye: <em>Demir Hotel</em></span>
+                    <span class="info">Mesafe:&nbsp;<em class="infoem">365km</em>&nbsp;&nbsp; Saat:&nbsp;&nbsp;<em
+                            class="infoem">14:25</em></span>
+                    <span class="info">Yön:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em
+                            class="infoem">çift</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiyat:&nbsp;<em
+                            class="infoem">145&#8378</em></span>
+                    <button class="reserbtn">Rezervasyon oluştur</button>
                 </div>
-                <div class="car">Araç 2</div>
-                <div class="car">Araç 3</div>
+                <div class="car">
+                    <img src="..//static/images/Sleek Black Mercedes-Benz Minivan With Modern Design Elements.png"
+                        alt="">
+                    <h1>Mercedes Vito</h1>
+                    <div>
+                        <span><i class='bx bxs-car'></i> Araba</span>
+                        <span><i class='bx bxs-user'></i> Kişi sayısı: 4</span>
+                        <span><span><i class='bx bxs-bag'></i> Bavul: 5</span>
+                    </div>
+                    <span class="from">Nereden: <em>İstanbul Havalimanı</em></span>
+                    <span class="from">Nereye: <em>Demir Hotel</em></span>
+                    <span class="info">Mesafe:&nbsp;<em class="infoem">365km</em>&nbsp;&nbsp; Saat:&nbsp;&nbsp;<em
+                            class="infoem">14:25</em></span>
+                    <span class="info">Yön:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em
+                            class="infoem">çift</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiyat:&nbsp;<em
+                            class="infoem">145&#8378</em></span>
+                    <button class="reserbtn">Rezervasyon oluştur</button>
+                </div>
+                <div class="car">
+                    <img src="..//static/images/Mercedes-Benz Van Front View With Sleek Black Exterior.png" alt="">
+                    <h1>Mercedes S Class Vito</h1>
+                    <div>
+                        <span><i class='bx bxs-car'></i> Araba</span>
+                        <span><i class='bx bxs-user'></i> Kişi sayısı: 4</span>
+                        <span><span><i class='bx bxs-bag'></i> Bavul: 5</span>
+                    </div>
+                    <span class="from">Nereden: <em>İstanbul Havalimanı</em></span>
+                    <span class="from">Nereye: <em>Demir Hotel</em></span>
+                    <span class="info">Mesafe:&nbsp;<em class="infoem">365km</em>&nbsp;&nbsp; Saat:&nbsp;&nbsp;<em
+                            class="infoem">14:25</em></span>
+                    <span class="info">Yön:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em
+                            class="infoem">çift</em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fiyat:&nbsp;<em
+                            class="infoem">145&#8378</em></span>
+                    <button class="reserbtn">Rezervasyon oluştur</button>
+                </div>
             </div>
         </div>
+        <footer>
+            <p>&copy; 2023 Tüm haklar saklıdır.</p>
+            <a href="https://www.facebook.com" target="_blank">
+                <i class='bx bxl-facebook' style="color: white; font-size: 24px;"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+                <i class='bx bxl-instagram' style="color: white; font-size: 24px;"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <i class='bx bxl-twitter' style="color: white; font-size: 24px;"></i>
+            </a>
+            <a href="https://vk.com" target="_blank">
+                <i class='bx bxl-vk' style="color: white; font-size: 24px;"></i>
+            </a>
+        </footer>
     </main>
-   </body>
+</body>
+
 </html>
