@@ -1,2 +1,3 @@
-- suratlar gorunenok
-- contactus.html bilen reservation.html-in css link-leri islanok, yalnys link beripsin.
+- index.js file-y static/js folderinin icinde bolmaly,
+- form sahypasy yokmy? ady, familiyasy eyle beyle bolan sahypasy
+    reservation.html-daki 'rezervasyon olustur' butonuna basanda sona gitmelidi
