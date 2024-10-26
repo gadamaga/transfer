@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../static/css/footer.css">
     <link rel="stylesheet" href="..//static/css/reservationII.css">
     <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
-    
+
 </head>
 
 <body>
@@ -22,6 +22,7 @@
         <a href="../pages/contactus.html">İletişim</a>
     </nav>
     <main>
+
         <h2>Ilave ekstralar</h2>
         <span class="info">
             Bebek koltugu <span class="price">40 &#8378;</span> <button class="infobtn">Ekle</button>
@@ -63,6 +64,7 @@
         </div>
         <button class="reservationII" id="reservationII"> Rezervasyon oluştur</button>
     </main>
+
     <footer>
         <p>&copy; 2023 Tüm haklar saklıdır.</p>
         <a href="https://www.facebook.com" target="_blank">
@@ -79,8 +81,22 @@
         </a>
 
     </footer>
+    <div id="modal">
+        <img src="..//static/images/check.png" alt="">
+        Rezervasyonunuz alınmıştır. Onaylandığında size e-posta gönderilecektir.
 
+    </div>
+    <script>
+        // Butona tıklandığında modalı göster
+        document.getElementById('reservationII').addEventListener('click', function () {
+            document.getElementById('modal').style.display = 'block';
+
+            setTimeout(function () {
+                document.getElementById('modal').style.display = 'none';
+            }, 5000);
+        });
+    </script>
 
 </body>
-<script src="..//static/js/reservationII.js"></script>
+
 </html>
