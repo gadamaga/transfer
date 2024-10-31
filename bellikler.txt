@@ -1,4 +1,15 @@
 - index.js file-y static/js folderinin icinde bolmaly,
-- form sahypasy yokmy? ady, familiyasy eyle beyle bolan sahypasy
-    reservation.html-daki 'rezervasyon olustur' butonuna basanda sona gitmelidi
-    
+    YOKARKY HENIZEM EDILMANDIR
+- birem mesafe.html gerekdal bolsa ayyryp goyber.
+
+- indi muny servere goymaly
+- https://blabla.com diylende senki acylmaly
+
+- ssh name? owren, sul link komek edip biler, 
+- https://blog.devops.dev/a-beginners-guide-to-ssh-what-it-is-and-how-to-use-it-27c118fec3d4
+- internetde basga-da cesme kopdir, men dine mysal diyip sul link-i yazyan
+
+- ssh bilen linux servere baglanyp, nginx webserver gurmaly, we nginx-i configure etmeli
+- ony hem sul linkden gorup bilersin
+- https://dev.to/starcc/how-to-deploy-a-simple-website-with-nginx-a-comically-easy-guide-202g
+- internetde basga-da cesme kopdir, men dine mysal diyip sul link-i yazyan
