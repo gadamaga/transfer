@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çalışanlar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .employee-card {
+            display: flex;
+            align-items: center;
+            background-color: #e9ecef;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .employee-info {
+            flex: 1;
+        }
+
+        .employee-image {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            margin-left: 20px;
+        }
+
+        .social-icons {
+            margin-top: 10px;
+            display: flex; /* Flexbox ile hizalama */
+            align-items: center; /* Dikey ortalama */
+        }
+
+        .social-icon {
+            font-size: 25px; /* İkon boyutu */
+            color: #007bff; /* İkon rengi */
+            margin-right: 10px;
+            text-decoration: none; /* Alt çizgiyi kaldır */
+            display: flex; /* Flexbox ile hizalama */
+            align-items: center; /* Dikey ortalama */
+        }
+
+        .employee-card h2 {
+            color: #007bff;
+        }
+
+        .employee-card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bizim Ekibimiz</h1>
+        </header>
+        <main>
+            <div class="employee-card">
+                <div class="employee-info">
+                    <h2>Ahmet Yılmaz</h2>
+                    <p><strong>Pozisyon:</strong> Yazılım Geliştirici</p>
+                    <p><strong>Departman:</strong> IT</p>
+                    <p><strong>Telefon:</strong> 555-1234</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/ahmet.yilmaz" target="_blank" class="social-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/ahmet.yilmaz" target="_blank" class="social-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://twitter.com/ahmet_yilmaz" target="_blank" class="social-icon">
+                            <i class="fab fa-x"></i> <!-- Twitter (X) ikonu -->
+                        </a>
+                        <a href="https://vk.com/ahmet.yilmaz" target="_blank" class="social-icon">
+                            <i class='bx bxl-vk'></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="ahmet.jpg" alt="Ahmet Yılmaz" class="employee-image">
+            </div>
+
+            <div class="employee-card">
+                <div class="employee-info">
+                    <h2>Aylin Demir</h2>
+                    <p><strong>Pozisyon:</strong> Proje Yöneticisi</p>
+                    <p><strong>Departman:</strong> Yönetim</p>
+                    <p><strong>Telefon:</strong> 555-5678</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/aylin.demir" target="_blank" class="social-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/aylin.demir" target="_blank" class="social-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://twitter.com/aylin_demir" target="_blank" class="social-icon">
+                            <i class="fab fa-x"></i> <!-- Twitter (X) ikonu -->
+                        </a>
+                        <a href="https://vk.com/aylin.demir" target="_blank" class="social-icon">
+                            <i class='bx bxl-vk'></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="aylin.jpg" alt="Aylin Demir" class="employee-image">
+            </div>
+
+            <div class="employee-card">
+                <div class="employee-info">
+                    <h2>Mehmet Korkmaz</h2>
+                    <p><strong>Pozisyon:</strong> Grafik Tasarımcı</p>
+                    <p><strong>Departman:</strong> Pazarlama</p>
+                    <p><strong>Telefon:</strong> 555-9876</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/mehmet.korkmaz" target="_blank" class="social-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.instagram.com/mehmet.korkmaz" target="_blank" class="social-icon">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                        <a href="https://twitter.com/mehmet_korkmaz" target="_blank" class="social-icon">
+                            <i class="fab fa-x"></i> <!-- Twitter (X) ikonu -->
+                        </a>
+                        <a href="https://vk.com/mehmet.korkmaz" target="_blank" class="social-icon">
+                            <i class='bx bxl-vk'></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="mehmet.jpg" alt="Mehmet Korkmaz" class="employee-image">
+            </div>
+        </main>
+    </div>
+</body>
+</html>
